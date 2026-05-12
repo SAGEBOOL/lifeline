@@ -1,6 +1,8 @@
 # lifeline
 
 ## 人生运势命理K线趋势图
+<img width="1155" height="764" alt="image" src="https://github.com/user-attachments/assets/08f377e5-9092-4ec8-b554-1d07dedbcaef" />
+
 
 五行八卦生辰八字，娱乐🎢K线图推算平台。今日运势/穿衣指南，交友避坑。
 
