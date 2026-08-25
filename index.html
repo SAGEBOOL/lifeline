@@ -318,17 +318,17 @@
       <a href="https://sagebool.github.io/sagebook/index.html" target="_blank" rel="noopener" style="color:#8a9abb; margin:0 4px; text-decoration:none;">SAGEBOOK写作工坊</a>
     </div>
 
-    <!-- 浏览量计数统计（基数 1500，使用不蒜子 busuanzi 统计真实访问） -->
+    <!-- 全站访客统计（基数 1500，使用不蒜子 busuanzi 统计真实独立访客） -->
     <div style="text-align:center; padding:8px 16px 18px; color:#7a8aaa; font-size:0.85rem;">
-      <span>浏览量统计：</span><span id="pv-count" style="color:#8a9abb; font-weight:600;">1500</span>
+      <span>访客统计：</span><span id="uv-count" style="color:#8a9abb; font-weight:600;">1500</span>
     </div>
-    <!-- 不蒜子：隐藏真实 PV，叠加 1500 基数后显示 -->
-    <span id="busuanzi_container_site_pv" style="display:none;"><span id="busuanzi_value_site_pv">0</span></span>
+    <!-- 不蒜子：隐藏真实 UV，叠加 1500 基数后显示 -->
+    <span id="busuanzi_container_site_uv" style="display:none;"><span id="busuanzi_value_site_uv">0</span></span>
     <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <script>
       (function () {
-        var real = document.getElementById('busuanzi_value_site_pv');
-        var display = document.getElementById('pv-count');
+        var real = document.getElementById('busuanzi_value_site_uv');
+        var display = document.getElementById('uv-count');
         var base = 1500;
         function update() {
           var v = parseInt((real && real.textContent) || '0', 10);
